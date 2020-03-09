@@ -1,0 +1,37 @@
+# Directories
+dist/
+www/
+loader/
+.out/
+.okta/
+build/
+reports/
+screenshots/
+.stencil/
+.idea/
+.vscode/
+.sass-cache/
+.versions/
+node_modules/
+$RECYCLE.BIN/
+.terraform/
+.scannerwork/
+coverage/
+
+# Extensions
+*~
+*.js
+*.sw[mnpcod]
+*.log
+package-json.lock
+*.tmp
+*.tmp.*
+log.txt
+
+# Files
+.DS_Store
+Thumbs.db
+package-lock.json
+UserInterfaceState.xcuserstate
+.env
+.npmrc

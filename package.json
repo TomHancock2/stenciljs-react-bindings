@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build:react": "lerna run --stream --scope component-library-react build",
+    "build:stencil": "lerna run --stream --scope components build",
+    "build": "yarn build:stencil && yarn build:react",
+    "start": "yarn build && lerna run --stream --scope my-app start",
+    "test": "yarn build && lerna run --stream --scope my-app test"
+  },
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  }
+}

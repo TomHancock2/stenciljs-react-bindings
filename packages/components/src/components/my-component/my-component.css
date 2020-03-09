@@ -1,0 +1,11 @@
+:host {
+  display:block;
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 3rem;
+}
+
+:host h3 {
+  margin-top: 0;
+}
